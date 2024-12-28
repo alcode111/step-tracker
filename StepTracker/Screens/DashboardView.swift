@@ -57,7 +57,7 @@ struct DashboardView: View {
             .navigationDestination(for: HealthMetricContext.self, destination: { metric in
                 HealthDataListView(metric: metric)
             })
-            .sheet(isPresented: $isShowingPermissionPrimingSheet) {
+            .fullScreenCover(isPresented: $isShowingPermissionPrimingSheet) {
                 fetchHealthData()
             } content: {
                 HealthKitPermissionPrimingView()
