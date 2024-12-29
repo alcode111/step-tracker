@@ -68,3 +68,6 @@ Although it's a simple portfolio project, I've implemented the following
 * Project organization
 
 
+## Credits
+
+- This is Sean Allen's [Teachable Course](https://seanallen.teachable.com/courses/enrolled/2509363): "Portfolio Piece - SwiftUI, HealthKit, Charts - iOS 18".
