@@ -10,14 +10,30 @@
 		ECFC5F2A2D1C2236001E23AB /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = ECFC5F292D1C2236001E23AB /* Algorithms */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		EC8610922D21E8B600CEE78C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC291E2F2D193C460005F96C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC291E362D193C460005F96C;
+			remoteInfo = StepTracker;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		EC291E372D193C460005F96C /* StepTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StepTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC86108E2D21E8B600CEE78C /* StepTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StepTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		EC291E392D193C460005F96C /* StepTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = StepTracker;
+			sourceTree = "<group>";
+		};
+		EC86108F2D21E8B600CEE78C /* StepTrackerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = StepTrackerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -31,6 +47,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC86108B2D21E8B600CEE78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -38,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				EC291E392D193C460005F96C /* StepTracker */,
+				EC86108F2D21E8B600CEE78C /* StepTrackerTests */,
 				EC291E382D193C460005F96C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				EC291E372D193C460005F96C /* StepTracker.app */,
+				EC86108E2D21E8B600CEE78C /* StepTrackerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +101,29 @@
 			productReference = EC291E372D193C460005F96C /* StepTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EC86108D2D21E8B600CEE78C /* StepTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8610962D21E8B600CEE78C /* Build configuration list for PBXNativeTarget "StepTrackerTests" */;
+			buildPhases = (
+				EC86108A2D21E8B600CEE78C /* Sources */,
+				EC86108B2D21E8B600CEE78C /* Frameworks */,
+				EC86108C2D21E8B600CEE78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8610932D21E8B600CEE78C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EC86108F2D21E8B600CEE78C /* StepTrackerTests */,
+			);
+			name = StepTrackerTests;
+			packageProductDependencies = (
+			);
+			productName = StepTrackerTests;
+			productReference = EC86108E2D21E8B600CEE78C /* StepTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -88,6 +136,10 @@
 				TargetAttributes = {
 					EC291E362D193C460005F96C = {
 						CreatedOnToolsVersion = 16.2;
+					};
+					EC86108D2D21E8B600CEE78C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = EC291E362D193C460005F96C;
 					};
 				};
 			};
@@ -109,12 +161,20 @@
 			projectRoot = "";
 			targets = (
 				EC291E362D193C460005F96C /* StepTracker */,
+				EC86108D2D21E8B600CEE78C /* StepTrackerTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EC291E352D193C460005F96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC86108C2D21E8B600CEE78C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -131,7 +191,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EC86108A2D21E8B600CEE78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8610932D21E8B600CEE78C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC291E362D193C460005F96C /* StepTracker */;
+			targetProxy = EC8610922D21E8B600CEE78C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EC291E432D193C460005F96C /* Debug */ = {
@@ -321,6 +396,42 @@
 			};
 			name = Release;
 		};
+		EC8610942D21E8B600CEE78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RY3YFMNU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuiismaillarbipacha.StepTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StepTracker";
+			};
+			name = Debug;
+		};
+		EC8610952D21E8B600CEE78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9RY3YFMNU4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftuiismaillarbipacha.StepTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StepTracker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StepTracker";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -338,6 +449,15 @@
 			buildConfigurations = (
 				EC291E462D193C460005F96C /* Debug */,
 				EC291E472D193C460005F96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8610962D21E8B600CEE78C /* Build configuration list for PBXNativeTarget "StepTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8610942D21E8B600CEE78C /* Debug */,
+				EC8610952D21E8B600CEE78C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
