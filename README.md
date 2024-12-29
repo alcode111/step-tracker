@@ -10,6 +10,8 @@ Step Tracker also allows you to upload new step or weight data to the Apple Heal
 * Swift Algorithms
 * DocC
 * Git & GitHub
+* Swift 6 Concurrency
+* Swift Testing
 
 # Animated Swift Charts
 ![readme-animated-charts](README-content/animated-charts.gif)
